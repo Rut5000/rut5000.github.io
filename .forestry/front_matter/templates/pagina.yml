@@ -3,5 +3,5 @@ label: Pagina
 hide_body: false
 fields: []
 pages:
+- a.md
 - b.md
-- lettera.md
