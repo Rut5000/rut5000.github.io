@@ -1,11 +1,11 @@
 ---
 
 ---
-# Letter B
+# B
 
 ## Broodmakelaar
 
-**Broodmakelaar** (_derdenaamsvalsvorm. wrd.)_ Zie: Uitvaartscake.  _Het gebruik van voldoende \~ wordt afgeraden._ 
+**Broodmakelaar** (_derdenaamsvalsvorm. wrd.)_ Zie: Uitvaartscake.  _Het gebruik van voldoende \~ wordt afgeraden._
 
 ## Blakbaar
 
