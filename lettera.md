@@ -1,7 +1,7 @@
 ---
 
 ---
-# LETTER A
+# A
 
 ## AARTIGLARO
 
