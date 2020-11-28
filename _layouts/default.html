@@ -14,13 +14,13 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">RUTGER TAAL SITE</a></h1>
+        <h1>RUTGER TAAL SITE</h1>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p><a href="/"> Home </a></p>
+        <p><a href="{{ "/" | absolute_url }}"> Home </a></p>
         {% for page in site.pages %}
             <p><a href="{{ page.url}}"> {{page.title}}</a></p>
         {% endfor %}
