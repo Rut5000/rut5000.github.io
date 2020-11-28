@@ -20,13 +20,13 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p><a href="{{ "/" | absolute_url }}"> Home </a></p>
-        <p><a href="https://app.forestry.io/sites/dr1uxwzzftpnrw/"> Ùndùn </a></p>
+        <p><a {% if page.title == "Home" %} class="active" {% endif %} href="{{ "/" | absolute_url }}"> Home </a></p>
         {% for p in site.pages %}
             {% unless p.title == "Home" %}
             <p><a {% if page.title == p.title %} class="active" {% endif %} href="{{ p.url}}"> {{p.title}}</a></p>
             {% endunless %}
         {% endfor %}
+        <p><a href="https://app.forestry.io/sites/dr1uxwzzftpnrw/"> Ùndùn </a></p>
       </header>
       <section>
 
