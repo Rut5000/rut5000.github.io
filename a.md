@@ -20,7 +20,7 @@ Combines two sentences.
 
 **Ailùm** _(prop. n.)_  
 Ailum  
-> The capital city of Seblia.
+>The capital city of Seblia.
 
 **aimo** _(num.)_  
 zero, none
