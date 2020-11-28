@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-body {background-color: #ffddcc;}
+body {background-color: #ffddcc; font-family: 'Castoro', serif;}
 a { color: #500; }
-a:hover { color: #500; }
+a:hover { color: #500; font-weight: bold;}
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
