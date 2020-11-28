@@ -2,3 +2,5 @@
 label: Pagina
 hide_body: false
 fields: []
+pages:
+- letterb.md
