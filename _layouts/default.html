@@ -22,7 +22,9 @@
 
         <p><a href="{{ "/" | absolute_url }}"> Home </a></p>
         {% for page in site.pages %}
+            {% unless page.title == "Home" %}
             <p><a href="{{ page.url}}"> {{page.title}}</a></p>
+            {% endunless %}
         {% endfor %}
       </header>
       <section>
