@@ -21,9 +21,9 @@
         {% endif %}
 
         <p><a href="{{ "/" | absolute_url }}"> Home </a></p>
-        {% for page in site.pages %}
-            {% unless page.title == "Home" %}
-            <p><a href="{{ page.url}}"> {{page.title}}</a></p>
+        {% for p in site.pages %}
+            {% unless p.title == "Home" %}
+            <p><a {% if page.title == p.title %} class="active" {% endif %} href="{{ p.url}}"> {{p.title}}</a></p>
             {% endunless %}
         {% endfor %}
       </header>
